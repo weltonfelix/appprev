@@ -1,0 +1,58 @@
+div#dashboard {
+  margin-left: 280px;
+  margin-right: 20px;
+}
+
+div#dashboard h1{
+  margin-top: 20px;
+  font-weight: bolder;
+  color: #3BC1C4;
+}
+
+div#cards {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+div#charts {
+  margin-top: 15px;
+  margin-left: -31px;
+  display: flex;
+  flex-direction: row;
+}
+
+div#cards .card-hello {
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  width: 400px;
+  border-radius: 5px;
+  background: #3BC1C4;
+  padding: 20px;
+  box-shadow: 0px 24px 32px rgba(50, 50, 71, 0.08), 0px 16px 16px rgba(50, 50, 71, 0.08);
+}
+
+div#cards .card-hello h2 {
+  font-weight: 300;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+div#cards .card {
+  border: 0;
+  padding: 20px;
+  box-shadow: 0px 24px 32px rgba(50, 50, 71, 0.08), 0px 16px 16px rgba(50, 50, 71, 0.08);
+  border-radius: 5px;
+  justify-content: center;
+  background: #ffffff;
+  align-items: center;
+}
+
+div#cards .card .value {
+  color: #00C48C;
+}
