@@ -76,6 +76,7 @@ div#form form button {
 
 div#main {
   margin-top: 25px;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,8 +108,9 @@ div#details div.info img.info_img {
   height: auto;
 }
 
-div#details div.info p.info_title {
-  font-weight: bold;
+div#details div.info h5.info_title {
+  text-align: center;
+  margin-top: 10px;
 }
 
 div#details div.info p.info_text {

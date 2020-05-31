@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #ffffff;
+  background: #ffffff !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased;
 }

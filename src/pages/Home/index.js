@@ -37,7 +37,6 @@ export default class Home extends Component {
             <h1>
               Conheça as melhores escolhas que você pode fazer para a sua
               previdência
-              <span>Consulte grátis pelo nosso site!</span>
             </h1>
             <div id="form">
               <h3>Agora ficou mais fácil prever o seu plano de previdência</h3>
@@ -60,24 +59,23 @@ export default class Home extends Component {
           <div id="details">
             <div className="info">
               <img src={image2} alt="Imagem2" className="info_img" />
-              <h5 className="info_title">Adquira seu plano</h5>
+              <h5 className="info_title">Ainda não tenho plano</h5>
               <p className="info_text">
                 Contrate um benefício pensado para você!
               </p>
             </div>
             <div className="info">
               <img src={image1} alt="Imagem1" className="info_img" />
-              <h5 className="info_title">Você no controle</h5>
+              <h5 className="info_title">Já tenho plano</h5>
               <p className="info_text">
                 Controle tudo que acontece na sua previdência!
               </p>
             </div>
             <div className="info">
               <img src={image3} alt="Imagem3" className="info_img" />
-              <h5 className="info_title">Suas finanças</h5>
+              <h5 className="info_title">Já recebo o benefício</h5>
               <p className="info_text">
-                Tenha todas as suas finanças na palma da sua mão, a qualquer
-                hora!
+                Realize alterações e faça sua prova de vida
               </p>
             </div>
           </div>
