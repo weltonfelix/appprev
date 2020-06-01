@@ -5,7 +5,9 @@
 </h1>
 
 # AppPrev
-Contratação de planos de previdência privada de maneira consistente
+Contratação de planos de previdência privada de maneira consistente.
+
+Projeto construído durante a [HACK'A'PREV](https://hackaprev.com.br), organizada pela [Shawee](https://shawee.io).
 
 <p align="center">
   <img alt="Github language counter" src="https://img.shields.io/github/languages/count/weltonfelix/appprev?color=%2304D361">
