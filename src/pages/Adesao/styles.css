@@ -1,0 +1,67 @@
+div#dashboard {
+  margin-left: 280px;
+  margin-right: 20px;
+}
+
+div#dashboard h1{
+  margin-top: 20px;
+  width: 100%;
+  font-weight: bolder;
+  color: #3BC1C4;
+}
+
+div#cards {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+div#form-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  margin: 0 auto;
+}
+
+div#form-results form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+div#form-results form input, div#form-results form select, div#form-results form input::placeholder {
+  background: #3BC1C4;
+  color: white;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 13px;
+  outline: 0;
+  height: 50px;
+  width: 800px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+div#form-results form input, div#form-results form select{
+  box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(50, 50, 71, 0.08);
+}
+
+div#form-results button {
+  background: #3BC1C4;
+  color: white;
+  border: 0;
+  font-size: 20px;
+  outline: 0;
+  padding: 15px 70px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 40px;
+  align-self: center;
+}

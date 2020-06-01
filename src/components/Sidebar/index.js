@@ -23,7 +23,10 @@ const Side = (props) => {
               </div>
             </div>
             <li>
-              <a href="#">Dashboard</a>
+              <a href="/dashboard">Dashboard</a>
+            </li>
+            <li>
+              <a href="/results">Meu perfil</a>
             </li>
             <li>
               <a href="#">Configurações</a>
